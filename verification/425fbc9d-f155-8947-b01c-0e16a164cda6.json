@@ -1,0 +1,12 @@
+{
+  "id": "425fbc9d-f155-8947-b01c-0e16a164cda6",
+  "method": "Test",
+  "procedure": "Power up with the temperature settings valid, then again with one of them held invalid; it passes if the regulator reaches NORMAL after the first, FAILED 1.0 s after the second, and stays in FAILED until a power cycle.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:df781aa2-c54a-8d8a-80ff-d58571fafd24"
+  ],
+  "createdAt": "2026-11-04T08:01:18.000Z"
+}

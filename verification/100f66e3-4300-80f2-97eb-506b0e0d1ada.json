@@ -1,0 +1,12 @@
+{
+  "id": "100f66e3-4300-80f2-97eb-506b0e0d1ada",
+  "method": "Test",
+  "procedure": "Take the regulator through INIT, NORMAL and FAILED; it passes if the regulator status shows Init, On and Failed within 0.5 s of each change of mode.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:372535f9-3dcf-8b10-862d-8bb4edeb619d"
+  ],
+  "createdAt": "2026-11-04T08:01:15.000Z"
+}

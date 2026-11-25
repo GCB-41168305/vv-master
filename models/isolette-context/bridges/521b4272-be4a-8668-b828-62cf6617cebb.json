@@ -1,0 +1,19 @@
+{
+  "id": "521b4272-be4a-8668-b828-62cf6617cebb",
+  "name": "",
+  "category": "bridge",
+  "kind": "Bridge",
+  "edge": "bridge",
+  "parent": "54d77d3d-2c6c-8da5-b1bf-9e60dd6fa267",
+  "wires": [
+    {
+      "id": "9874b799-087f-8731-9937-757caae7eaec",
+      "name": "Heat control",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "",
+      "typeRef": "type:a66edd0d-c765-898b-9e5d-af4f6976cf45"
+    }
+  ]
+}

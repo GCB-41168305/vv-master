@@ -1,0 +1,12 @@
+{
+  "id": "fb2a5e0d-975a-85c8-a661-a6f3728d1f6b",
+  "method": "Test",
+  "procedure": "With an alarm range of 95–101 °F, take the current temperature from 98 °F to 94 °F, to 95.3 °F and to 96 °F; it passes if the alarm goes on, stays on, then goes off.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:eb49b6fb-a6c6-8cef-823f-423bc22b12bc"
+  ],
+  "createdAt": "2026-11-04T08:01:25.000Z"
+}

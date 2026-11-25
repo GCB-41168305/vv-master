@@ -1,0 +1,98 @@
+{
+  "id": "54d77d3d-2c6c-8da5-b1bf-9e60dd6fa267",
+  "name": "Isolette",
+  "category": "level",
+  "kind": "Physical architecture",
+  "edge": "decompose",
+  "parent": "55b72b72-2698-8089-bc26-5423cad94546",
+  "level": 1,
+  "objects": [
+    {
+      "id": "75ca931b-b436-8950-bc63-da78ca6d866b",
+      "kind": "port",
+      "name": "",
+      "portKind": "interface"
+    },
+    {
+      "id": "2f8ab4ef-1d8d-8a43-87f3-585bb3a3efb1",
+      "kind": "port",
+      "name": "",
+      "portKind": "interface"
+    },
+    {
+      "id": "263caae5-3b08-8630-b00b-8b4b467dadc3",
+      "kind": "function",
+      "name": "Operator Interface",
+      "props": {
+        "terminal": "yes",
+        "satisfies": "req:04d55e61-30b8-8309-b0d9-075dedd61e1a"
+      }
+    },
+    {
+      "id": "700f1a44-cd7e-847d-8368-aba99a22c7e3",
+      "kind": "function",
+      "name": "Thermostat",
+      "definitionId": "ab7740e8-aab2-813f-b650-73802b5a05fe"
+    },
+    {
+      "id": "b6bafb57-1618-847b-bfe3-5c617aa97084",
+      "kind": "function",
+      "name": "Temperature Sensor",
+      "props": {
+        "terminal": "yes",
+        "satisfies": "req:9d648ea3-52e8-84fd-b291-b9c35a4ed2dc"
+      }
+    },
+    {
+      "id": "156b68ac-1dc8-836b-a2de-307f02dadf07",
+      "kind": "function",
+      "name": "Heat Source",
+      "props": {
+        "terminal": "yes"
+      }
+    },
+    {
+      "id": "0f5f2157-3970-8bb8-b9b7-744442578c9c",
+      "kind": "interface",
+      "name": "",
+      "portId": "75ca931b-b436-8950-bc63-da78ca6d866b",
+      "from": "75ca931b-b436-8950-bc63-da78ca6d866b",
+      "to": "263caae5-3b08-8630-b00b-8b4b467dadc3"
+    },
+    {
+      "id": "a2cb508c-95d5-88ec-873c-5906aae31b32",
+      "kind": "interface",
+      "name": "",
+      "portId": "2f8ab4ef-1d8d-8a43-87f3-585bb3a3efb1",
+      "from": "156b68ac-1dc8-836b-a2de-307f02dadf07",
+      "to": "2f8ab4ef-1d8d-8a43-87f3-585bb3a3efb1"
+    },
+    {
+      "id": "a2695eba-32ee-8076-bbb2-8b23055d0346",
+      "kind": "interface",
+      "name": "",
+      "from": "b6bafb57-1618-847b-bfe3-5c617aa97084",
+      "to": "700f1a44-cd7e-847d-8368-aba99a22c7e3",
+      "pageId": "4d677e35-eb9f-8ed7-98e3-35ea9e714f3f",
+      "toPort": "0eb28621-7ec0-8e23-b421-9687c6b4afaf"
+    },
+    {
+      "id": "db5527c5-90b1-8e6d-ae90-578504e0d961",
+      "kind": "interface",
+      "name": "",
+      "from": "700f1a44-cd7e-847d-8368-aba99a22c7e3",
+      "to": "156b68ac-1dc8-836b-a2de-307f02dadf07",
+      "pageId": "521b4272-be4a-8668-b828-62cf6617cebb",
+      "fromPort": "32413109-6378-86c2-964a-cc434d8df352"
+    },
+    {
+      "id": "8f2b217a-8894-805d-9098-950b75656700",
+      "kind": "interface",
+      "name": "",
+      "from": "263caae5-3b08-8630-b00b-8b4b467dadc3",
+      "to": "700f1a44-cd7e-847d-8368-aba99a22c7e3",
+      "pageId": "0be0795f-d129-865d-a23b-c53b0e79af7f",
+      "toPort": "e60ea795-e2ae-87ed-bd99-8699cc07a5d3"
+    }
+  ]
+}

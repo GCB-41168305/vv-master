@@ -1,0 +1,12 @@
+{
+  "id": "db8cf92e-b1d5-8856-b90e-2fc93976c340",
+  "number": null,
+  "title": "Define hysteresis, or reword T11",
+  "body": "T11 [[eb49b6fb-a6c6-8cef-823f-423bc22b12bc]] uses the word hysteresis, which the dictionary does not define. Add it as a term, or say what the 0.5 °F margin does without it.",
+  "state": "open",
+  "author": "you",
+  "comments": [],
+  "createdAt": "2026-11-04T08:01:28.000Z",
+  "updatedAt": "2026-11-04T08:01:28.000Z",
+  "githubUpdatedAt": null
+}

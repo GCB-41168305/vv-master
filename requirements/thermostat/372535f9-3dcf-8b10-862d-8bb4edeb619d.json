@@ -1,0 +1,14 @@
+{
+  "ssid": "372535f9-3dcf-8b10-862d-8bb4edeb619d",
+  "title": "Show the regulator status",
+  "isHeading": false,
+  "parentReq": "req:444b2942-e3b2-8471-bf38-441bd3faa8d0",
+  "statement": "The thermostat shall show the regulator status as Init in the INIT mode, On in the NORMAL mode and Failed in the FAILED mode, within 0.5 s of a mode change.",
+  "status": "draft",
+  "implementationStatus": "not_started",
+  "createdAt": "2026-11-04T08:00:58.000Z",
+  "modifiedAt": "2026-11-04T08:00:58.000Z",
+  "customAttributeValues": {
+    "73e9a8ff-4d4a-83a6-be5b-275109cea193": "A.5.1.1 REQ-MRI-1 to 3"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "0be0795f-d129-865d-a23b-c53b0e79af7f",
+  "name": "",
+  "category": "bridge",
+  "kind": "Bridge",
+  "edge": "bridge",
+  "parent": "54d77d3d-2c6c-8da5-b1bf-9e60dd6fa267",
+  "wires": [
+    {
+      "id": "37da0d2e-8214-88e7-a066-44d9071bbc92",
+      "name": "Lower desired temperature",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "°F",
+      "typeRef": "type:2e25f01a-cc76-8185-afe8-57e6304c5a11"
+    },
+    {
+      "id": "732772ed-975a-841f-97a1-e3d4fa1fdd71",
+      "name": "Upper desired temperature",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "°F",
+      "typeRef": "type:2e25f01a-cc76-8185-afe8-57e6304c5a11"
+    },
+    {
+      "id": "edb34a3b-a675-86a3-bc99-2ab998f173d3",
+      "name": "Lower alarm temperature",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "°F",
+      "typeRef": "type:2e25f01a-cc76-8185-afe8-57e6304c5a11"
+    },
+    {
+      "id": "0c8e19d6-fc25-8fbd-9103-59af960dc407",
+      "name": "Upper alarm temperature",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "°F",
+      "typeRef": "type:2e25f01a-cc76-8185-afe8-57e6304c5a11"
+    },
+    {
+      "id": "061ea7d0-45e5-8478-8cd8-015cce7406dd",
+      "name": "Desired temperature validity",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "",
+      "typeRef": "type:7fbf5526-c5ec-838d-a59b-8877e2a6e29f"
+    },
+    {
+      "id": "5e95d41a-5b21-8b55-8a29-97bc23080c12",
+      "name": "Alarm temperature validity",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "",
+      "typeRef": "type:7fbf5526-c5ec-838d-a59b-8877e2a6e29f"
+    },
+    {
+      "id": "3c446c5b-9f44-8641-b95b-eddc17177cae",
+      "name": "Display temperature",
+      "direction": "uni",
+      "source": "to",
+      "format": "",
+      "unit": "°F",
+      "typeRef": "type:c020be3d-6d4c-8148-9963-817005baa23b"
+    },
+    {
+      "id": "293d75b1-15ec-8c17-85df-b5dff715c480",
+      "name": "Regulator status",
+      "direction": "uni",
+      "source": "to",
+      "format": "",
+      "unit": "",
+      "typeRef": "type:19f0fa7b-c2a9-8b94-a198-987898be0e98"
+    },
+    {
+      "id": "4439a303-b613-8a54-8fbe-5d8d9f44e1f7",
+      "name": "Monitor status",
+      "direction": "uni",
+      "source": "to",
+      "format": "",
+      "unit": "",
+      "typeRef": "type:19f0fa7b-c2a9-8b94-a198-987898be0e98"
+    },
+    {
+      "id": "9389f224-c172-83ce-9381-a5790231f87c",
+      "name": "Alarm control",
+      "direction": "uni",
+      "source": "to",
+      "format": "",
+      "unit": "",
+      "typeRef": "type:a66edd0d-c765-898b-9e5d-af4f6976cf45"
+    }
+  ]
+}

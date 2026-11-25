@@ -1,0 +1,12 @@
+{
+  "id": "0b18f5d1-6e1e-86ff-8a75-36d5f54eecfc",
+  "method": "Inspection",
+  "procedure": "Read the temperature sensor's data sheet; it passes if its range covers 68.0–105.0 °F and it reports the temperature to within ±0.1 °F or better.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:9d648ea3-52e8-84fd-b291-b9c35a4ed2dc"
+  ],
+  "createdAt": "2026-11-04T08:01:13.000Z"
+}

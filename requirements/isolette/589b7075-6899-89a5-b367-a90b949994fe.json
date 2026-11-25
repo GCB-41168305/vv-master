@@ -1,0 +1,12 @@
+{
+  "ssid": "589b7075-6899-89a5-b367-a90b949994fe",
+  "title": "Isolette system requirements",
+  "isHeading": true,
+  "specSlug": "isolette",
+  "scope": "page:55b72b72-2698-8089-bc26-5423cad94546#11f9d3fc-7af3-8bd6-bb4c-d40791f1557c",
+  "statement": "What the isolette must do for the infant and the nurse, restated from Appendix A of the FAA Requirements Engineering Management Handbook.",
+  "status": "draft",
+  "implementationStatus": "not_started",
+  "createdAt": "2026-11-04T08:00:52.000Z",
+  "modifiedAt": "2026-11-04T08:00:52.000Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "477a7cf6-d638-82a9-b15c-0f562bb804a1",
+  "method": "Test",
+  "procedure": "Flag the upper alarm temperature invalid in the NORMAL mode; it passes if the monitor enters the FAILED mode and the alarm turns on.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:732a3831-3200-85e6-b3f7-dc3052db5c78"
+  ],
+  "createdAt": "2026-11-04T08:01:23.000Z"
+}

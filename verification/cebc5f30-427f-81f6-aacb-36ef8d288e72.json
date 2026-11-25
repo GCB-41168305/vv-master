@@ -1,0 +1,12 @@
+{
+  "id": "cebc5f30-427f-81f6-aacb-36ef8d288e72",
+  "method": "Test",
+  "procedure": "Flag the lower desired temperature invalid in the NORMAL mode; it passes if the regulator enters the FAILED mode.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:9e2f0c16-b917-8f17-be22-d49c05536e8a"
+  ],
+  "createdAt": "2026-11-04T08:01:17.000Z"
+}

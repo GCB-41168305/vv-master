@@ -1,0 +1,14 @@
+{
+  "ssid": "df781aa2-c54a-8d8a-80ff-d58571fafd24",
+  "title": "Regulator modes",
+  "isHeading": false,
+  "parentReq": "req:444b2942-e3b2-8471-bf38-441bd3faa8d0",
+  "statement": "The regulator shall start in the INIT mode, enter the NORMAL mode once its status is valid, and enter the FAILED mode when its status becomes invalid or the INIT mode lasts longer than 1.0 s; only a power cycle shall take it out of the FAILED mode.",
+  "status": "draft",
+  "implementationStatus": "not_started",
+  "createdAt": "2026-11-04T08:01:01.000Z",
+  "modifiedAt": "2026-11-04T08:01:01.000Z",
+  "customAttributeValues": {
+    "73e9a8ff-4d4a-83a6-be5b-275109cea193": "A.5.1.2"
+  }
+}

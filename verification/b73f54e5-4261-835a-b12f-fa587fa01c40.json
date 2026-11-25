@@ -1,0 +1,12 @@
+{
+  "id": "b73f54e5-4261-835a-b12f-fa587fa01c40",
+  "method": "Test",
+  "procedure": "Make each of the three happen, one after another, and measure how long the alarm takes to come on; it passes if the alarm comes on within 5 s after each of them.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:f885d5e4-217d-83d6-877a-581e8f275756"
+  ],
+  "createdAt": "2026-11-04T08:01:12.000Z"
+}

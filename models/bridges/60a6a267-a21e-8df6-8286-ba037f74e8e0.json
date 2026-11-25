@@ -1,0 +1,82 @@
+{
+  "id": "60a6a267-a21e-8df6-8286-ba037f74e8e0",
+  "name": "",
+  "category": "bridge",
+  "kind": "Bridge",
+  "edge": "bridge",
+  "parent": "55b72b72-2698-8089-bc26-5423cad94546",
+  "wires": [
+    {
+      "id": "edb8f01b-75f0-882c-b0c4-a8244a5928e0",
+      "name": "Lower desired temperature",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "°F",
+      "typeRef": "type:2e25f01a-cc76-8185-afe8-57e6304c5a11"
+    },
+    {
+      "id": "23d083e0-4176-8d3d-bc29-d2266ab1148f",
+      "name": "Upper desired temperature",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "°F",
+      "typeRef": "type:2e25f01a-cc76-8185-afe8-57e6304c5a11"
+    },
+    {
+      "id": "2cfb7f36-ae85-8f9c-be66-378cc0401b79",
+      "name": "Lower alarm temperature",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "°F",
+      "typeRef": "type:2e25f01a-cc76-8185-afe8-57e6304c5a11"
+    },
+    {
+      "id": "c329392d-d935-8551-8f4d-7364d5f86a4b",
+      "name": "Upper alarm temperature",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "°F",
+      "typeRef": "type:2e25f01a-cc76-8185-afe8-57e6304c5a11"
+    },
+    {
+      "id": "ba30dfea-6bdb-8b1f-bfaf-51ab3fd71f9e",
+      "name": "Display temperature",
+      "direction": "uni",
+      "source": "to",
+      "format": "",
+      "unit": "°F",
+      "typeRef": "type:c020be3d-6d4c-8148-9963-817005baa23b"
+    },
+    {
+      "id": "71cd56da-3c32-8318-922c-bbb3fc5cce40",
+      "name": "Regulator status",
+      "direction": "uni",
+      "source": "to",
+      "format": "",
+      "unit": "",
+      "typeRef": "type:19f0fa7b-c2a9-8b94-a198-987898be0e98"
+    },
+    {
+      "id": "c0e2f09c-9d84-8a78-bb47-d6ac71c15c69",
+      "name": "Monitor status",
+      "direction": "uni",
+      "source": "to",
+      "format": "",
+      "unit": "",
+      "typeRef": "type:19f0fa7b-c2a9-8b94-a198-987898be0e98"
+    },
+    {
+      "id": "a2ad153f-fe97-8a7e-a293-90995adf04f6",
+      "name": "Alarm control",
+      "direction": "uni",
+      "source": "to",
+      "format": "",
+      "unit": "",
+      "typeRef": "type:a66edd0d-c765-898b-9e5d-af4f6976cf45"
+    }
+  ]
+}

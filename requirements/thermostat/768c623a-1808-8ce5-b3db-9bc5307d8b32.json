@@ -1,0 +1,13 @@
+{
+  "ssid": "768c623a-1808-8ce5-b3db-9bc5307d8b32",
+  "title": "Thermostat requirements",
+  "isHeading": true,
+  "specSlug": "thermostat",
+  "scope": "page:54d77d3d-2c6c-8da5-b1bf-9e60dd6fa267#700f1a44-cd7e-847d-8368-aba99a22c7e3",
+  "parentReq": "req:589b7075-6899-89a5-b367-a90b949994fe",
+  "statement": "What the thermostat must do so that the isolette meets its system requirements.",
+  "status": "draft",
+  "implementationStatus": "not_started",
+  "createdAt": "2026-11-04T08:00:57.000Z",
+  "modifiedAt": "2026-11-04T08:00:57.000Z"
+}

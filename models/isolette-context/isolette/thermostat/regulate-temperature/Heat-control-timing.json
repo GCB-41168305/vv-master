@@ -1,0 +1,84 @@
+{
+  "id": "fbf2ffae-8429-8b76-bdad-7390b6b02549",
+  "name": "Heat control timing",
+  "category": "level",
+  "kind": "Timing diagram",
+  "edge": "decompose",
+  "parent": "612c10f5-0dc7-84b6-86b1-723d91335a69",
+  "level": 3,
+  "template": "timing",
+  "objects": [
+    {
+      "id": "00c79b93-91d0-81dd-a889-7ec20f92a889",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "ba198bd9-d540-817f-8eeb-bd06da6d909b",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "50de1987-d60c-85dd-9971-f1bac0246d29",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "f1a2ed35-f590-842e-8e5c-9a88d6cfb5f4",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "c07bd71d-1e21-8e09-8f7f-3cc808f3b036",
+      "kind": "wave",
+      "name": "Current temperature",
+      "props": {
+        "wave": "0.1.......0.",
+        "states": "in range, below range",
+        "ref": "port:00c79b93-91d0-81dd-a889-7ec20f92a889"
+      }
+    },
+    {
+      "id": "61f7f749-3e74-868b-83e0-1029d627ae1b",
+      "kind": "wave",
+      "name": "Heat control",
+      "props": {
+        "wave": "0....1......",
+        "states": "off, on",
+        "ref": "port:f1a2ed35-f590-842e-8e5c-9a88d6cfb5f4",
+        "satisfies": "req:444b2942-e3b2-8471-bf38-441bd3faa8d0,req:3b650aab-39f2-839b-8505-7707b4e7bc23,req:c41f1405-79e9-8b25-bf1a-fc4a1e9dd426"
+      }
+    },
+    {
+      "id": "58a372a9-a88d-81e9-ac7b-2be25157a285",
+      "kind": "waveEdge",
+      "name": "",
+      "props": {
+        "from": "Current temperature:2",
+        "to": "Heat control:5",
+        "text": "≤ 6.0 s",
+        "shape": "arrow"
+      }
+    },
+    {
+      "id": "8e1ac8c6-1ee2-880d-be66-89dd9418a735",
+      "kind": "waveMark",
+      "name": "",
+      "props": {
+        "label": "6.0 s limit",
+        "from": "Heat control:8"
+      }
+    }
+  ],
+  "props": {
+    "subtype": "state",
+    "ticks": "12",
+    "hscale": "1",
+    "every": "6",
+    "pitch": "80"
+  }
+}

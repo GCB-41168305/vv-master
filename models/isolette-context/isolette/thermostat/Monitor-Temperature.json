@@ -1,0 +1,164 @@
+{
+  "id": "81417a7e-cb01-874c-afef-a3895bf6e7c4",
+  "name": "Monitor Temperature",
+  "category": "level",
+  "kind": "Functional flow",
+  "edge": "decompose",
+  "parent": "ab7740e8-aab2-813f-b650-73802b5a05fe",
+  "level": 2,
+  "objects": [
+    {
+      "id": "e450f5d5-8e6b-8351-a16d-0239d6e0f047",
+      "kind": "refBlock",
+      "name": "Monitor Temperature"
+    },
+    {
+      "id": "f5a32aee-92b5-8656-94f9-c6c4ad08a150",
+      "kind": "refBlock",
+      "name": "Monitor Temperature"
+    },
+    {
+      "id": "2dbbdcf0-9a44-8e9c-a1ee-d45d56891367",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "92548482-c1c6-8a6b-9996-46d17cc94923",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "c797c36d-d97e-8b80-86ed-50a7062db090",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "50747fd7-0d4c-8621-b5f9-015374f9ab13",
+      "kind": "function",
+      "name": "Manage Monitor Interface",
+      "props": {
+        "terminal": "yes",
+        "allocatedTo": "page:54d77d3d-2c6c-8da5-b1bf-9e60dd6fa267#700f1a44-cd7e-847d-8368-aba99a22c7e3",
+        "satisfies": "req:aedefbdc-3337-85b2-9931-29e296973cd2,req:732a3831-3200-85e6-b3f7-dc3052db5c78"
+      }
+    },
+    {
+      "id": "f6a21b41-c2fe-8edd-973d-ebb3e17d7ad8",
+      "kind": "function",
+      "name": "Manage Monitor Mode",
+      "definitionId": "56a91be1-3239-82b6-ad15-1ae45ce4ebe1",
+      "props": {
+        "satisfies": "req:f5c63fc5-93ea-8e3d-b7cf-821ebc7fa092"
+      }
+    },
+    {
+      "id": "5131d11c-740d-8f2e-8a90-5c5f3e96c3f6",
+      "kind": "function",
+      "name": "Manage Alarm",
+      "definitionId": "e03546fa-7a94-8923-aa80-68dbc8c8534a",
+      "props": {
+        "satisfies": "req:f885d5e4-217d-83d6-877a-581e8f275756,req:eb49b6fb-a6c6-8cef-823f-423bc22b12bc"
+      }
+    },
+    {
+      "id": "16be4f36-7a7d-8657-a210-cea75b722340",
+      "kind": "function",
+      "name": "Detect Monitor Failure"
+    },
+    {
+      "id": "afbd0c55-0279-8e0f-9016-13ad5d86bd77",
+      "kind": "annotation",
+      "name": "",
+      "content": "The handbook does not say how the thermostat detects a monitor failure (A.5.2.4), so nothing is allocated to this or traced to it yet."
+    },
+    {
+      "id": "0128964b-e8ec-801e-82f3-768e34ed6353",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "2dbbdcf0-9a44-8e9c-a1ee-d45d56891367",
+      "to": "50747fd7-0d4c-8621-b5f9-015374f9ab13"
+    },
+    {
+      "id": "3ed06fe3-6cfc-8fd7-bc33-3974e6ab18e5",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "2dbbdcf0-9a44-8e9c-a1ee-d45d56891367",
+      "to": "f6a21b41-c2fe-8edd-973d-ebb3e17d7ad8",
+      "toPort": "3dc11c25-cb45-834e-80e8-b6775a9bff46"
+    },
+    {
+      "id": "2071898c-abf4-8555-8ec0-6ea61dd5755e",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "2dbbdcf0-9a44-8e9c-a1ee-d45d56891367",
+      "to": "5131d11c-740d-8f2e-8a90-5c5f3e96c3f6",
+      "toPort": "6fb11e92-db57-8aa5-8475-433e16641fb5"
+    },
+    {
+      "id": "e298759e-fc93-8ee0-b346-c42aa8447301",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "92548482-c1c6-8a6b-9996-46d17cc94923",
+      "to": "50747fd7-0d4c-8621-b5f9-015374f9ab13"
+    },
+    {
+      "id": "cfd3831a-582b-8af1-93d3-743d5a31a4bb",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "50747fd7-0d4c-8621-b5f9-015374f9ab13",
+      "to": "f6a21b41-c2fe-8edd-973d-ebb3e17d7ad8",
+      "toPort": "96bd3799-267f-8e9f-aad0-f103db78b841"
+    },
+    {
+      "id": "173210a5-4c91-8a4b-ba4a-fd90ee42ed3a",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "50747fd7-0d4c-8621-b5f9-015374f9ab13",
+      "to": "5131d11c-740d-8f2e-8a90-5c5f3e96c3f6",
+      "toPort": "1de65fda-9c21-89c6-b3d1-55d75b15d917"
+    },
+    {
+      "id": "e6829a87-b30d-83a5-a938-2f6e38803727",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "16be4f36-7a7d-8657-a210-cea75b722340",
+      "to": "f6a21b41-c2fe-8edd-973d-ebb3e17d7ad8",
+      "toPort": "a0e15fb0-38c9-8c93-aec1-a2d4da620e28"
+    },
+    {
+      "id": "19baa24b-4603-816f-b28c-ea1923efe6e8",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "f6a21b41-c2fe-8edd-973d-ebb3e17d7ad8",
+      "to": "5131d11c-740d-8f2e-8a90-5c5f3e96c3f6",
+      "fromPort": "b26082fd-ef88-8b52-a5d0-2df9a129c14a",
+      "toPort": "3d1ebf49-390c-8651-b063-c91a9e35a639"
+    },
+    {
+      "id": "4ab8117a-c662-81b8-a705-e692c7e2b4b5",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "f6a21b41-c2fe-8edd-973d-ebb3e17d7ad8",
+      "to": "50747fd7-0d4c-8621-b5f9-015374f9ab13",
+      "fromPort": "ea2bfb9f-2d42-8273-8f2b-dfd81e251b1c"
+    },
+    {
+      "id": "30c48f92-d031-82a8-b22d-141183299338",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "5131d11c-740d-8f2e-8a90-5c5f3e96c3f6",
+      "to": "c797c36d-d97e-8b80-86ed-50a7062db090",
+      "fromPort": "9177f817-2aa9-8ca3-9685-007fd3eb1046"
+    },
+    {
+      "id": "e7397a93-ac97-8fb3-996a-71ec992db5d1",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "50747fd7-0d4c-8621-b5f9-015374f9ab13",
+      "to": "c797c36d-d97e-8b80-86ed-50a7062db090"
+    }
+  ]
+}

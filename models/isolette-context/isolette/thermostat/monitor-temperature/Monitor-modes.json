@@ -1,0 +1,146 @@
+{
+  "id": "56a91be1-3239-82b6-ad15-1ae45ce4ebe1",
+  "name": "Monitor modes",
+  "category": "level",
+  "kind": "FSM",
+  "edge": "decompose",
+  "parent": "81417a7e-cb01-874c-afef-a3895bf6e7c4",
+  "level": 3,
+  "template": "fsm",
+  "objects": [
+    {
+      "id": "c7ee1539-21e2-840f-b595-d40b87816775",
+      "kind": "initial",
+      "name": ""
+    },
+    {
+      "id": "3dc11c25-cb45-834e-80e8-b6775a9bff46",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "96bd3799-267f-8e9f-aad0-f103db78b841",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "a0e15fb0-38c9-8c93-aec1-a2d4da620e28",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "b26082fd-ef88-8b52-a5d0-2df9a129c14a",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "ea2bfb9f-2d42-8273-8f2b-dfd81e251b1c",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "69a96408-f5cb-87c4-8483-763178ec1059",
+      "kind": "state",
+      "name": "INIT",
+      "props": {
+        "entry": "alarm off; status Init",
+        "satisfies": "req:f5c63fc5-93ea-8e3d-b7cf-821ebc7fa092,req:af200242-af7a-8552-9e1f-5116c583945d"
+      }
+    },
+    {
+      "id": "9b8b97bb-edd6-8fd8-a0ec-c5f5b5839f37",
+      "kind": "state",
+      "name": "NORMAL",
+      "props": {
+        "entry": "status On",
+        "satisfies": "req:f5c63fc5-93ea-8e3d-b7cf-821ebc7fa092"
+      }
+    },
+    {
+      "id": "fa852596-1cba-833a-9d10-bf8717d8a8cb",
+      "kind": "state",
+      "name": "FAILED",
+      "props": {
+        "entry": "alarm on; status Failed",
+        "satisfies": "req:f5c63fc5-93ea-8e3d-b7cf-821ebc7fa092,req:af200242-af7a-8552-9e1f-5116c583945d"
+      }
+    },
+    {
+      "id": "2c35f5b7-74d6-875f-a828-5cc697b5314d",
+      "kind": "final",
+      "name": ""
+    },
+    {
+      "id": "a37e9385-9b17-81d0-b8cc-21c0c2dedf68",
+      "kind": "transition",
+      "name": "",
+      "from": "c7ee1539-21e2-840f-b595-d40b87816775",
+      "to": "69a96408-f5cb-87c4-8483-763178ec1059"
+    },
+    {
+      "id": "3e655b2b-8d99-858c-b32f-b118e15c9e16",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "guard": "status == valid"
+      },
+      "from": "69a96408-f5cb-87c4-8483-763178ec1059",
+      "to": "9b8b97bb-edd6-8fd8-a0ec-c5f5b5839f37"
+    },
+    {
+      "id": "e009c966-818b-8ef9-bc42-60fb335bbcaa",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "guard": "initTime > 1.0"
+      },
+      "from": "69a96408-f5cb-87c4-8483-763178ec1059",
+      "to": "fa852596-1cba-833a-9d10-bf8717d8a8cb"
+    },
+    {
+      "id": "ba7958b4-d9ab-8f3f-89d2-02b4ce6f4eac",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "guard": "status == invalid"
+      },
+      "from": "9b8b97bb-edd6-8fd8-a0ec-c5f5b5839f37",
+      "to": "fa852596-1cba-833a-9d10-bf8717d8a8cb"
+    },
+    {
+      "id": "9940ff86-37dd-890f-a227-cde41039fa76",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "trigger": "power off"
+      },
+      "from": "69a96408-f5cb-87c4-8483-763178ec1059",
+      "to": "2c35f5b7-74d6-875f-a828-5cc697b5314d"
+    },
+    {
+      "id": "c188f61e-165d-8923-b11e-eb1bb72f5cfc",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "trigger": "power off"
+      },
+      "from": "9b8b97bb-edd6-8fd8-a0ec-c5f5b5839f37",
+      "to": "2c35f5b7-74d6-875f-a828-5cc697b5314d"
+    },
+    {
+      "id": "aa9bea04-1823-8609-b464-84f503aefd1d",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "trigger": "power off"
+      },
+      "from": "fa852596-1cba-833a-9d10-bf8717d8a8cb",
+      "to": "2c35f5b7-74d6-875f-a828-5cc697b5314d"
+    }
+  ]
+}

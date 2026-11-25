@@ -1,0 +1,12 @@
+{
+  "id": "356c9052-21bc-84d2-ba66-c4ffedc814c1",
+  "method": "Test",
+  "procedure": "Take the current temperature out of the alarm temperature range and measure how long the alarm takes to come on; repeat until twenty are measured; it passes if each of the twenty is under 5 s.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:d4d8a468-3879-8834-bdaa-19e8da177f3b"
+  ],
+  "createdAt": "2026-11-04T08:01:27.000Z"
+}

@@ -1,0 +1,14 @@
+{
+  "ssid": "3b650aab-39f2-839b-8505-7707b4e7bc23",
+  "title": "Switch the heat at the range limits",
+  "isHeading": false,
+  "parentReq": "req:444b2942-e3b2-8471-bf38-441bd3faa8d0",
+  "statement": "In the NORMAL mode the thermostat shall turn the heat source on when the current temperature is below the lower desired temperature, turn it off when the current temperature is above the upper desired temperature, and leave it as it is inside the desired temperature range.",
+  "status": "draft",
+  "implementationStatus": "not_started",
+  "createdAt": "2026-11-04T08:01:03.000Z",
+  "modifiedAt": "2026-11-04T08:01:03.000Z",
+  "customAttributeValues": {
+    "73e9a8ff-4d4a-83a6-be5b-275109cea193": "A.5.1.3 REQ-MHS-2 to 4"
+  }
+}

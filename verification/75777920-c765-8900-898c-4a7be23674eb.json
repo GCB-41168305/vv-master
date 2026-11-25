@@ -1,0 +1,12 @@
+{
+  "id": "75777920-c765-8900-898c-4a7be23674eb",
+  "method": "Test",
+  "procedure": "Hold the monitor in INIT and then in FAILED; it passes if the alarm is off and then on.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:af200242-af7a-8552-9e1f-5116c583945d"
+  ],
+  "createdAt": "2026-11-04T08:01:26.000Z"
+}

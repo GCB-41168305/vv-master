@@ -1,0 +1,12 @@
+{
+  "id": "f0390f26-2121-8da9-9d0e-33e4187a80c2",
+  "method": "Test",
+  "procedure": "With a range of 97–99 °F, take the current temperature from 98 °F to 96 °F, back to 98 °F and up to 100 °F; it passes if the heat control goes on, stays on, then goes off.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:3b650aab-39f2-839b-8505-7707b4e7bc23"
+  ],
+  "createdAt": "2026-11-04T08:01:20.000Z"
+}

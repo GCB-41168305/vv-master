@@ -1,0 +1,146 @@
+{
+  "id": "d6c7a0a0-4206-884b-83d7-9718b249b005",
+  "name": "Regulator modes",
+  "category": "level",
+  "kind": "FSM",
+  "edge": "decompose",
+  "parent": "612c10f5-0dc7-84b6-86b1-723d91335a69",
+  "level": 3,
+  "template": "fsm",
+  "objects": [
+    {
+      "id": "d6be875b-8ebc-8f2b-8478-08dbe205aa59",
+      "kind": "initial",
+      "name": ""
+    },
+    {
+      "id": "67ad4adf-7ed3-8fbf-b9ad-7df8e6e9e71a",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "6721eaa2-e42c-8676-be7f-d263063f0444",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "9fca4c0b-3445-826e-8b9e-92f38bf6681f",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "d37ad6ae-e22a-8b2f-a722-247590f0d256",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "ec12f95a-a273-81e3-8874-6156c4c8f040",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "da07d207-f5f9-86db-9217-cb7e42b1dd75",
+      "kind": "state",
+      "name": "INIT",
+      "props": {
+        "entry": "heat control off; status Init",
+        "satisfies": "req:df781aa2-c54a-8d8a-80ff-d58571fafd24,req:39c62f99-41be-8d01-aa1c-1dd21ccbc222"
+      }
+    },
+    {
+      "id": "1b67f527-62a6-8759-9e2c-6044c41b651e",
+      "kind": "state",
+      "name": "NORMAL",
+      "props": {
+        "entry": "status On",
+        "satisfies": "req:df781aa2-c54a-8d8a-80ff-d58571fafd24"
+      }
+    },
+    {
+      "id": "51b8ebd7-3efb-89bb-96a5-3d2f4f74df91",
+      "kind": "state",
+      "name": "FAILED",
+      "props": {
+        "entry": "heat control off; status Failed",
+        "satisfies": "req:df781aa2-c54a-8d8a-80ff-d58571fafd24,req:39c62f99-41be-8d01-aa1c-1dd21ccbc222"
+      }
+    },
+    {
+      "id": "8d1af6bf-ec59-8c87-a5c2-c84be330349c",
+      "kind": "final",
+      "name": ""
+    },
+    {
+      "id": "7021aae0-9e82-843a-85ca-84aea44b6ace",
+      "kind": "transition",
+      "name": "",
+      "from": "d6be875b-8ebc-8f2b-8478-08dbe205aa59",
+      "to": "da07d207-f5f9-86db-9217-cb7e42b1dd75"
+    },
+    {
+      "id": "97c518c1-b023-8ccf-ae60-82d76bdf5c20",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "guard": "status == valid"
+      },
+      "from": "da07d207-f5f9-86db-9217-cb7e42b1dd75",
+      "to": "1b67f527-62a6-8759-9e2c-6044c41b651e"
+    },
+    {
+      "id": "b15b7073-329a-8f60-b4ca-d238f14b7fc9",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "guard": "initTime > 1.0"
+      },
+      "from": "da07d207-f5f9-86db-9217-cb7e42b1dd75",
+      "to": "51b8ebd7-3efb-89bb-96a5-3d2f4f74df91"
+    },
+    {
+      "id": "e25f79c7-db5f-8d7d-a8e3-d3336fc7d19b",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "guard": "status == invalid"
+      },
+      "from": "1b67f527-62a6-8759-9e2c-6044c41b651e",
+      "to": "51b8ebd7-3efb-89bb-96a5-3d2f4f74df91"
+    },
+    {
+      "id": "c790c3a6-e0b7-8723-8de7-60c6bf1c35ae",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "trigger": "power off"
+      },
+      "from": "da07d207-f5f9-86db-9217-cb7e42b1dd75",
+      "to": "8d1af6bf-ec59-8c87-a5c2-c84be330349c"
+    },
+    {
+      "id": "811a0834-6e07-85ca-becd-9d88d2cd3721",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "trigger": "power off"
+      },
+      "from": "1b67f527-62a6-8759-9e2c-6044c41b651e",
+      "to": "8d1af6bf-ec59-8c87-a5c2-c84be330349c"
+    },
+    {
+      "id": "8541b507-e032-87d3-95a1-7cd411d6bf19",
+      "kind": "transition",
+      "name": "",
+      "props": {
+        "trigger": "power off"
+      },
+      "from": "51b8ebd7-3efb-89bb-96a5-3d2f4f74df91",
+      "to": "8d1af6bf-ec59-8c87-a5c2-c84be330349c"
+    }
+  ]
+}

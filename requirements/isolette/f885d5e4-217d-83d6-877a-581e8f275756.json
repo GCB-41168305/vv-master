@@ -1,0 +1,18 @@
+{
+  "ssid": "f885d5e4-217d-83d6-877a-581e8f275756",
+  "title": "Raise the alarm on an unsafe temperature",
+  "isHeading": false,
+  "externalSource": {
+    "kind": "constraint",
+    "title": "Handbook A.4, safety requirement SR-2",
+    "ref": "A.4 SR-2"
+  },
+  "statement": "The isolette shall have a monitor, independent of the regulator, that turns the alarm on within 5 s when the current temperature leaves the alarm temperature range, when a temperature value is flagged invalid, or when the monitor detects a failure of its own.",
+  "status": "draft",
+  "implementationStatus": "not_started",
+  "createdAt": "2026-11-04T08:00:54.000Z",
+  "modifiedAt": "2026-11-04T08:00:54.000Z",
+  "customAttributeValues": {
+    "73e9a8ff-4d4a-83a6-be5b-275109cea193": "A.4 SR-2"
+  }
+}

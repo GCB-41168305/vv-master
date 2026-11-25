@@ -1,0 +1,51 @@
+{
+  "id": "55b72b72-2698-8089-bc26-5423cad94546",
+  "name": "Isolette context",
+  "category": "level",
+  "kind": "Context",
+  "edge": "detached",
+  "parent": null,
+  "level": 0,
+  "objects": [
+    {
+      "id": "47e90a99-65a8-8c45-a16f-6fc5549eea52",
+      "kind": "actor",
+      "name": "Nurse",
+      "props": {
+        "terminal": "yes"
+      }
+    },
+    {
+      "id": "11f9d3fc-7af3-8bd6-bb4c-d40791f1557c",
+      "kind": "function",
+      "name": "Isolette",
+      "definitionId": "54d77d3d-2c6c-8da5-b1bf-9e60dd6fa267"
+    },
+    {
+      "id": "986749c8-07e6-8c69-8252-fe938727e63f",
+      "kind": "external",
+      "name": "Infant",
+      "props": {
+        "terminal": "yes"
+      }
+    },
+    {
+      "id": "4d760207-8c40-8f71-ab02-cce37b749bcf",
+      "kind": "interface",
+      "name": "",
+      "from": "47e90a99-65a8-8c45-a16f-6fc5549eea52",
+      "to": "11f9d3fc-7af3-8bd6-bb4c-d40791f1557c",
+      "pageId": "60a6a267-a21e-8df6-8286-ba037f74e8e0",
+      "toPort": "75ca931b-b436-8950-bc63-da78ca6d866b"
+    },
+    {
+      "id": "a0346897-ca19-8d7f-b98a-e5148b6e1de6",
+      "kind": "interface",
+      "name": "",
+      "from": "11f9d3fc-7af3-8bd6-bb4c-d40791f1557c",
+      "to": "986749c8-07e6-8c69-8252-fe938727e63f",
+      "pageId": "baaef63f-5a39-8376-a8f0-9a95ec7a278f",
+      "fromPort": "2f8ab4ef-1d8d-8a43-87f3-585bb3a3efb1"
+    }
+  ]
+}

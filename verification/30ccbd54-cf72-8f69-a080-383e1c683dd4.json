@@ -1,0 +1,12 @@
+{
+  "id": "30ccbd54-cf72-8f69-a080-383e1c683dd4",
+  "method": "Demonstration",
+  "procedure": "Set each of the four temperature settings to the lowest and the highest temperature it allows; it passes if the operator interface accepts and shows back each one.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:04d55e61-30b8-8309-b0d9-075dedd61e1a"
+  ],
+  "createdAt": "2026-11-04T08:01:14.000Z"
+}

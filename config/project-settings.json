@@ -1,0 +1,65 @@
+{
+  "customAttributes": [
+    {
+      "id": "73e9a8ff-4d4a-83a6-be5b-275109cea193",
+      "name": "Handbook ref",
+      "type": "text",
+      "level": "basic",
+      "description": "The section of Appendix A of the FAA Requirements Engineering Management Handbook this requirement restates."
+    }
+  ],
+  "ontology": {
+    "phraseThreshold": 2
+  },
+  "canvas": {
+    "objectGridSize": 40,
+    "wireGridDivisor": 5,
+    "showGrid": true,
+    "showWireGrid": false,
+    "showOrigin": true,
+    "scrollMapping": "default"
+  },
+  "sheet": {
+    "size": "A3",
+    "orientation": "landscape"
+  },
+  "titleBlock": {
+    "title": "{kind}: {page}",
+    "rows": [
+      {
+        "label": "Project",
+        "value": "{project}"
+      },
+      {
+        "label": "Sheet",
+        "value": "{sheet} / {sheets}"
+      },
+      {
+        "label": "Scale",
+        "value": "{scale}"
+      },
+      {
+        "label": "Size",
+        "value": "{size} {orientation}"
+      },
+      {
+        "label": "Date",
+        "value": "{date}"
+      },
+      {
+        "label": "Drawn by",
+        "value": ""
+      },
+      {
+        "label": "Rev",
+        "value": ""
+      }
+    ]
+  },
+  "evaluation": {
+    "traceLog": false,
+    "forcedUpdateMinutes": 10,
+    "navLog": false,
+    "navCondition": "in-place"
+  }
+}

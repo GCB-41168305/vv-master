@@ -1,0 +1,12 @@
+{
+  "id": "4bde28b4-d0d6-8ceb-9422-8a65dddab50d",
+  "method": "Test",
+  "procedure": "Take the current temperature across the lower desired temperature and measure how long the heat control change takes; repeat until twenty changes are measured; it passes if every change comes within 6.0 s.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:c41f1405-79e9-8b25-bf1a-fc4a1e9dd426"
+  ],
+  "createdAt": "2026-11-04T08:01:21.000Z"
+}

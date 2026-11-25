@@ -1,0 +1,12 @@
+{
+  "id": "10717273-389c-8cb6-bc80-cb7f56222005",
+  "method": "Test",
+  "procedure": "As T4, for the monitor.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:f5c63fc5-93ea-8e3d-b7cf-821ebc7fa092"
+  ],
+  "createdAt": "2026-11-04T08:01:24.000Z"
+}

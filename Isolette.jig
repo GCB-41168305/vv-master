@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "format": {
+    "version": 10
+  },
+  "name": "Isolette thermostat",
+  "createdAt": "2026-11-04T08:00:00.000Z",
+  "requirements": [
+    {
+      "ssid": "589b7075-6899-89a5-b367-a90b949994fe",
+      "children": [
+        {
+          "ssid": "444b2942-e3b2-8471-bf38-441bd3faa8d0",
+          "children": []
+        },
+        {
+          "ssid": "f885d5e4-217d-83d6-877a-581e8f275756",
+          "children": []
+        },
+        {
+          "ssid": "9d648ea3-52e8-84fd-b291-b9c35a4ed2dc",
+          "children": []
+        },
+        {
+          "ssid": "04d55e61-30b8-8309-b0d9-075dedd61e1a",
+          "children": []
+        }
+      ]
+    },
+    {
+      "ssid": "768c623a-1808-8ce5-b3db-9bc5307d8b32",
+      "children": [
+        {
+          "ssid": "372535f9-3dcf-8b10-862d-8bb4edeb619d",
+          "children": []
+        },
+        {
+          "ssid": "c8dc841e-e295-8cf7-82f1-54fc68343654",
+          "children": []
+        },
+        {
+          "ssid": "9e2f0c16-b917-8f17-be22-d49c05536e8a",
+          "children": []
+        },
+        {
+          "ssid": "df781aa2-c54a-8d8a-80ff-d58571fafd24",
+          "children": []
+        },
+        {
+          "ssid": "39c62f99-41be-8d01-aa1c-1dd21ccbc222",
+          "children": []
+        },
+        {
+          "ssid": "3b650aab-39f2-839b-8505-7707b4e7bc23",
+          "children": []
+        },
+        {
+          "ssid": "c41f1405-79e9-8b25-bf1a-fc4a1e9dd426",
+          "children": []
+        },
+        {
+          "ssid": "aedefbdc-3337-85b2-9931-29e296973cd2",
+          "children": []
+        },
+        {
+          "ssid": "732a3831-3200-85e6-b3f7-dc3052db5c78",
+          "children": []
+        },
+        {
+          "ssid": "f5c63fc5-93ea-8e3d-b7cf-821ebc7fa092",
+          "children": []
+        },
+        {
+          "ssid": "eb49b6fb-a6c6-8cef-823f-423bc22b12bc",
+          "children": []
+        },
+        {
+          "ssid": "af200242-af7a-8552-9e1f-5116c583945d",
+          "children": []
+        },
+        {
+          "ssid": "d4d8a468-3879-8834-bdaa-19e8da177f3b",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

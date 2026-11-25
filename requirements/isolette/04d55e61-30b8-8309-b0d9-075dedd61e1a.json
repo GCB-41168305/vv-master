@@ -1,0 +1,18 @@
+{
+  "ssid": "04d55e61-30b8-8309-b0d9-075dedd61e1a",
+  "title": "Let the nurse set the ranges",
+  "isHeading": false,
+  "externalSource": {
+    "kind": "stakeholder-need",
+    "title": "Handbook A.2.2, use case Configure the Isolette",
+    "ref": "A.2.2; A.3.4"
+  },
+  "statement": "The operator interface shall let the nurse set a lower desired temperature of 97–99 °F, an upper desired temperature of 98–100 °F, a lower alarm temperature of 93–98 °F and an upper alarm temperature of 99–103 °F.",
+  "status": "draft",
+  "implementationStatus": "not_started",
+  "createdAt": "2026-11-04T08:00:56.000Z",
+  "modifiedAt": "2026-11-04T08:00:56.000Z",
+  "customAttributeValues": {
+    "73e9a8ff-4d4a-83a6-be5b-275109cea193": "A.2.2; A.3.4"
+  }
+}

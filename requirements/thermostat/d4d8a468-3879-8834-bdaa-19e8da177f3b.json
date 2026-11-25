@@ -1,0 +1,14 @@
+{
+  "ssid": "d4d8a468-3879-8834-bdaa-19e8da177f3b",
+  "title": "Alarm latency",
+  "isHeading": false,
+  "parentReq": "req:f885d5e4-217d-83d6-877a-581e8f275756",
+  "statement": "The thermostat shall turn the alarm on within 5 s of the condition that calls for it.",
+  "status": "draft",
+  "implementationStatus": "not_started",
+  "createdAt": "2026-11-04T08:01:10.000Z",
+  "modifiedAt": "2026-11-04T08:01:10.000Z",
+  "customAttributeValues": {
+    "73e9a8ff-4d4a-83a6-be5b-275109cea193": "A.5.2.3; A.4 SR-2"
+  }
+}

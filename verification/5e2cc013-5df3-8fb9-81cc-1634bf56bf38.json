@@ -1,0 +1,12 @@
+{
+  "id": "5e2cc013-5df3-8fb9-81cc-1634bf56bf38",
+  "method": "Test",
+  "procedure": "Set the desired temperature range to 97–99 °F, close the isolette and log the current temperature once a minute for an hour after it first enters the range; it passes if the current temperature stays inside the range.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:444b2942-e3b2-8471-bf38-441bd3faa8d0"
+  ],
+  "createdAt": "2026-11-04T08:01:11.000Z"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "232b25e3-82af-81ed-8eb1-04862fcfed54",
+  "method": "Test",
+  "procedure": "Hold the current temperature at 97.4 °F and then at 97.6 °F; it passes if the display temperature reads 97 and then 98.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:c8dc841e-e295-8cf7-82f1-54fc68343654"
+  ],
+  "createdAt": "2026-11-04T08:01:16.000Z"
+}

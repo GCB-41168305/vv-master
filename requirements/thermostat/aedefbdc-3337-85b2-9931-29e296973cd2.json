@@ -1,0 +1,14 @@
+{
+  "ssid": "aedefbdc-3337-85b2-9931-29e296973cd2",
+  "title": "Show the monitor status",
+  "isHeading": false,
+  "parentReq": "req:f885d5e4-217d-83d6-877a-581e8f275756",
+  "statement": "The thermostat shall show the monitor status as Init in the INIT mode, On in the NORMAL mode and Failed in the FAILED mode, within 0.5 s of a mode change.",
+  "status": "draft",
+  "implementationStatus": "not_started",
+  "createdAt": "2026-11-04T08:01:05.000Z",
+  "modifiedAt": "2026-11-04T08:01:05.000Z",
+  "customAttributeValues": {
+    "73e9a8ff-4d4a-83a6-be5b-275109cea193": "A.5.2.1 REQ-MMI-1 to 3"
+  }
+}

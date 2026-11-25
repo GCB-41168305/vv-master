@@ -1,0 +1,170 @@
+{
+  "id": "612c10f5-0dc7-84b6-86b1-723d91335a69",
+  "name": "Regulate Temperature",
+  "category": "level",
+  "kind": "Functional flow",
+  "edge": "decompose",
+  "parent": "ab7740e8-aab2-813f-b650-73802b5a05fe",
+  "level": 2,
+  "objects": [
+    {
+      "id": "c5b9019d-de3a-8a6e-9612-fe6b89a02d5c",
+      "kind": "refBlock",
+      "name": "Regulate Temperature"
+    },
+    {
+      "id": "ce79423f-58a9-8ea4-82c4-4db788d445b2",
+      "kind": "refBlock",
+      "name": "Regulate Temperature"
+    },
+    {
+      "id": "2a9b40eb-b213-88a9-914d-9f151de20fa9",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "1387a373-8df9-8063-889f-ecd946d6c642",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "76acce95-3efd-852d-8a13-e7dc2c118518",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "18613c81-348c-8769-b145-dd5fa8659596",
+      "kind": "port",
+      "name": "",
+      "portKind": "flow"
+    },
+    {
+      "id": "b4e5bfcc-7da4-8561-97e6-6906f3358c33",
+      "kind": "function",
+      "name": "Manage Regulator Interface",
+      "props": {
+        "terminal": "yes",
+        "allocatedTo": "page:54d77d3d-2c6c-8da5-b1bf-9e60dd6fa267#700f1a44-cd7e-847d-8368-aba99a22c7e3",
+        "satisfies": "req:372535f9-3dcf-8b10-862d-8bb4edeb619d,req:c8dc841e-e295-8cf7-82f1-54fc68343654,req:9e2f0c16-b917-8f17-be22-d49c05536e8a"
+      }
+    },
+    {
+      "id": "ed608842-40fb-8dea-871f-fdd060950812",
+      "kind": "function",
+      "name": "Manage Regulator Mode",
+      "definitionId": "d6c7a0a0-4206-884b-83d7-9718b249b005",
+      "props": {
+        "satisfies": "req:df781aa2-c54a-8d8a-80ff-d58571fafd24"
+      }
+    },
+    {
+      "id": "3aa84399-289c-8830-a240-efcb0512934e",
+      "kind": "function",
+      "name": "Manage Heat Source",
+      "definitionId": "fbf2ffae-8429-8b76-bdad-7390b6b02549",
+      "props": {
+        "satisfies": "req:444b2942-e3b2-8471-bf38-441bd3faa8d0,req:3b650aab-39f2-839b-8505-7707b4e7bc23"
+      }
+    },
+    {
+      "id": "be7bd8f4-7462-836f-92bb-95eaaf45abf8",
+      "kind": "function",
+      "name": "Detect Regulator Failure"
+    },
+    {
+      "id": "f20711c7-3e5d-8826-b2d2-9426f4ea4883",
+      "kind": "annotation",
+      "name": "",
+      "content": "The handbook does not say how the thermostat detects a regulator failure (A.5.1.4), so nothing is allocated to this or traced to it yet."
+    },
+    {
+      "id": "4fd545ed-cb63-87d6-90ed-89e572e1b219",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "2a9b40eb-b213-88a9-914d-9f151de20fa9",
+      "to": "b4e5bfcc-7da4-8561-97e6-6906f3358c33"
+    },
+    {
+      "id": "f4694a9f-12f0-8155-a67a-90ef0e0abccf",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "2a9b40eb-b213-88a9-914d-9f151de20fa9",
+      "to": "ed608842-40fb-8dea-871f-fdd060950812",
+      "toPort": "67ad4adf-7ed3-8fbf-b9ad-7df8e6e9e71a"
+    },
+    {
+      "id": "6d917d87-94c0-8a84-980c-d502f3036f85",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "2a9b40eb-b213-88a9-914d-9f151de20fa9",
+      "to": "3aa84399-289c-8830-a240-efcb0512934e",
+      "toPort": "00c79b93-91d0-81dd-a889-7ec20f92a889"
+    },
+    {
+      "id": "3b055a03-472b-840b-b2e3-166eff462e25",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "1387a373-8df9-8063-889f-ecd946d6c642",
+      "to": "b4e5bfcc-7da4-8561-97e6-6906f3358c33"
+    },
+    {
+      "id": "8fd12f98-3c86-8190-98c5-40743320a992",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "b4e5bfcc-7da4-8561-97e6-6906f3358c33",
+      "to": "ed608842-40fb-8dea-871f-fdd060950812",
+      "toPort": "6721eaa2-e42c-8676-be7f-d263063f0444"
+    },
+    {
+      "id": "0572cd31-aa1f-8241-b992-87adf2d9523e",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "b4e5bfcc-7da4-8561-97e6-6906f3358c33",
+      "to": "3aa84399-289c-8830-a240-efcb0512934e",
+      "toPort": "ba198bd9-d540-817f-8eeb-bd06da6d909b"
+    },
+    {
+      "id": "01743475-e7d1-86fb-8bba-1fbc6bb2c8c5",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "be7bd8f4-7462-836f-92bb-95eaaf45abf8",
+      "to": "ed608842-40fb-8dea-871f-fdd060950812",
+      "toPort": "9fca4c0b-3445-826e-8b9e-92f38bf6681f"
+    },
+    {
+      "id": "0ef382a5-c944-822c-942f-8580e8ada312",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "ed608842-40fb-8dea-871f-fdd060950812",
+      "to": "3aa84399-289c-8830-a240-efcb0512934e",
+      "fromPort": "d37ad6ae-e22a-8b2f-a722-247590f0d256",
+      "toPort": "50de1987-d60c-85dd-9971-f1bac0246d29"
+    },
+    {
+      "id": "9c5c3fcd-69ce-8689-952f-48a69525989f",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "ed608842-40fb-8dea-871f-fdd060950812",
+      "to": "b4e5bfcc-7da4-8561-97e6-6906f3358c33",
+      "fromPort": "ec12f95a-a273-81e3-8874-6156c4c8f040"
+    },
+    {
+      "id": "4b47dd32-49bd-88d1-9fa9-f5a0ae670e2c",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "3aa84399-289c-8830-a240-efcb0512934e",
+      "to": "76acce95-3efd-852d-8a13-e7dc2c118518",
+      "fromPort": "f1a2ed35-f590-842e-8e5c-9a88d6cfb5f4"
+    },
+    {
+      "id": "5e75c9be-f3ce-8f87-8bd5-8ffa983cde92",
+      "kind": "flowArrow",
+      "name": "",
+      "from": "b4e5bfcc-7da4-8561-97e6-6906f3358c33",
+      "to": "18613c81-348c-8769-b145-dd5fa8659596"
+    }
+  ]
+}

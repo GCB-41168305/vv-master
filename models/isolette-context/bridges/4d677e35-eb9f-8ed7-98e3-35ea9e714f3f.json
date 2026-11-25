@@ -1,0 +1,28 @@
+{
+  "id": "4d677e35-eb9f-8ed7-98e3-35ea9e714f3f",
+  "name": "",
+  "category": "bridge",
+  "kind": "Bridge",
+  "edge": "bridge",
+  "parent": "54d77d3d-2c6c-8da5-b1bf-9e60dd6fa267",
+  "wires": [
+    {
+      "id": "89f0bda5-5bd2-8ded-ba38-390ad09f501c",
+      "name": "Current temperature",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "°F",
+      "typeRef": "type:f172033c-63b0-898d-a990-9c7ed3947fdb"
+    },
+    {
+      "id": "206a4bd1-376c-89e9-af4a-2388be8cb9bc",
+      "name": "Current temperature validity",
+      "direction": "uni",
+      "source": "from",
+      "format": "",
+      "unit": "",
+      "typeRef": "type:7fbf5526-c5ec-838d-a59b-8877e2a6e29f"
+    }
+  ]
+}

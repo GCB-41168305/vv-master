@@ -1,0 +1,12 @@
+{
+  "id": "d549e374-ad32-8786-aea7-7c495ee348b4",
+  "method": "Test",
+  "procedure": "Hold the regulator in INIT and then in FAILED with the current temperature below the range; it passes if the heat control stays off.",
+  "attachments": [],
+  "verdict": "not_verified",
+  "owner": [],
+  "verifies": [
+    "req:39c62f99-41be-8d01-aa1c-1dd21ccbc222"
+  ],
+  "createdAt": "2026-11-04T08:01:19.000Z"
+}

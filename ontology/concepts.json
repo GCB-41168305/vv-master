@@ -1,0 +1,585 @@
+[
+  {
+    "id": "00490ec6-c760-8d60-bb75-1b75e2c340fe",
+    "kind": "term",
+    "preferred": "operator interface",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The panel at which the nurse sets the temperature ranges and reads what the thermostat reports.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:09.000Z"
+  },
+  {
+    "id": "17deda01-047f-8256-93d2-d0763942695d",
+    "kind": "term",
+    "preferred": "requirement",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A statement of what the isolette or one of its parts shall do, which a verification case can check.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:36.000Z"
+  },
+  {
+    "id": "19f0fa7b-c2a9-8b94-a198-987898be0e98",
+    "kind": "itemType",
+    "preferred": "status",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A value that reports the mode of the regulator or the monitor as Init, On or Failed.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:32.000Z"
+  },
+  {
+    "id": "1b2c60b6-55e3-867d-aa3c-17b043419c27",
+    "kind": "term",
+    "preferred": "appendix",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A part at the end of the handbook; Appendix A works the isolette thermostat through as an example.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:42.000Z"
+  },
+  {
+    "id": "28312fe0-ba53-841c-bb18-132999e15c40",
+    "kind": "term",
+    "preferred": "margin",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The 0.5 °F inside each alarm limit within which the monitor leaves the alarm as it is.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:20.000Z"
+  },
+  {
+    "id": "2e25f01a-cc76-8185-afe8-57e6304c5a11",
+    "kind": "itemType",
+    "preferred": "temperature setting",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A temperature value the nurse sets at the operator interface as one end of a range.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:30.000Z",
+    "broader": [
+      "e9acb37e-5982-83ea-a050-0f480984816e"
+    ]
+  },
+  {
+    "id": "306e6d76-59f0-81a9-a95d-63dac02f4c51",
+    "kind": "term",
+    "preferred": "change",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "An event in which a value or a mode takes a new value.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:46.000Z"
+  },
+  {
+    "id": "330c5d94-ff71-8803-99b5-aa44ce4c7a05",
+    "kind": "term",
+    "preferred": "isolette",
+    "admitted": [
+      "incubator"
+    ],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "An enclosed infant bed that keeps an infant in warmed air.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:01.000Z"
+  },
+  {
+    "id": "364eaa6c-b4e1-8bda-9d07-31eea47a4580",
+    "kind": "term",
+    "preferred": "limit",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "One end of a temperature range.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:21.000Z"
+  },
+  {
+    "id": "38f6da8a-134b-8682-8134-c4ec5256d50e",
+    "kind": "quantityKind",
+    "preferred": "temperature",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A quantity kind for how warm the air is, stated in degrees Fahrenheit.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:27.000Z",
+    "unit": "°F"
+  },
+  {
+    "id": "39917220-d753-8a17-b492-c9dbb7d2f1c3",
+    "kind": "term",
+    "preferred": "init",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The mode the regulator or the monitor starts in, before its inputs are known to be valid.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:14.000Z"
+  },
+  {
+    "id": "3a9b8b03-4597-8e4d-a0ff-23f80ce05721",
+    "kind": "term",
+    "preferred": "configure the isolette",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The use case in which the nurse sets the desired temperature range and the alarm temperature range.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:40.000Z"
+  },
+  {
+    "id": "402434fa-9c40-8aa7-98d8-e6e6d305c050",
+    "kind": "term",
+    "preferred": "failure",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A condition in which a function can no longer be trusted to set its outputs.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:17.000Z"
+  },
+  {
+    "id": "4279507b-2957-8e8b-8724-cc46c063e210",
+    "kind": "term",
+    "preferred": "heat source",
+    "admitted": [
+      "heater",
+      "heat"
+    ],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A device that warms the air in the isolette while it is switched on.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:08.000Z"
+  },
+  {
+    "id": "5e0b76f1-eaa6-82a1-b9aa-8fda6972a68d",
+    "kind": "term",
+    "preferred": "data sheet",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A document in which the maker of a device states what the device does and how well.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:43.000Z"
+  },
+  {
+    "id": "5eabe849-6d00-8c49-b375-e76a72b29716",
+    "kind": "term",
+    "preferred": "air",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The air inside the closed isolette, which the heat source warms.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:04.000Z"
+  },
+  {
+    "id": "610e8ec7-93fc-8dfa-9c24-7e43516b4f2b",
+    "kind": "term",
+    "preferred": "alarm control",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The switch command that turns the alarm on or off.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:26.000Z"
+  },
+  {
+    "id": "62300094-2e69-8187-8eab-4b6b0aa635d7",
+    "kind": "term",
+    "preferred": "use case",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A description of one way the nurse uses the isolette, step by step.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:39.000Z"
+  },
+  {
+    "id": "6ab45ef7-f1ee-8bdc-9039-c091c259540b",
+    "kind": "term",
+    "preferred": "regulator",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The function of the thermostat that keeps the current temperature inside the desired temperature range.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:10.000Z"
+  },
+  {
+    "id": "6e308b1f-6873-820c-a79d-42aa021d57da",
+    "kind": "term",
+    "preferred": "nurse",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A clinician who cares for the infant and sets the isolette's temperature ranges.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:03.000Z"
+  },
+  {
+    "id": "70114b8f-3615-8e8b-bb73-a8e8e487a831",
+    "kind": "term",
+    "preferred": "temperature sensor",
+    "admitted": [
+      "sensor"
+    ],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A device that measures the temperature of the air in the isolette.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:07.000Z"
+  },
+  {
+    "id": "7158d003-97c9-82a1-9088-0a63d9b34c81",
+    "kind": "term",
+    "preferred": "handbook",
+    "admitted": [
+      "faa requirements engineering management handbook"
+    ],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The FAA Requirements Engineering Management Handbook (DOT/FAA/AR-08/32, 2009), whose Appendix A describes the isolette thermostat this project restates.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:22.000Z"
+  },
+  {
+    "id": "780dc24c-d40f-8049-b8e5-66ec3d8f5c85",
+    "kind": "term",
+    "preferred": "context",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The isolette together with the nurse and the infant it serves.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:05.000Z"
+  },
+  {
+    "id": "7a0438af-eb21-8316-bc6d-bd0a297db9e1",
+    "kind": "term",
+    "preferred": "safety requirement",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A requirement whose purpose is to keep the infant from harm.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:38.000Z"
+  },
+  {
+    "id": "7fbf5526-c5ec-838d-a59b-8877e2a6e29f",
+    "kind": "itemType",
+    "preferred": "validity",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A value that says whether a reading or a setting can be used: valid or invalid.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:33.000Z"
+  },
+  {
+    "id": "87019234-13ef-85aa-b5e6-ce0244c42727",
+    "kind": "term",
+    "preferred": "degree",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A unit of temperature; in this project, one degree Fahrenheit (°F).",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:48.000Z"
+  },
+  {
+    "id": "8737f2da-cf17-8279-a606-cac0cf2b5f2d",
+    "kind": "term",
+    "preferred": "range",
+    "admitted": [
+      "span"
+    ],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A span of temperatures from a lower limit to an upper limit.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:35.000Z"
+  },
+  {
+    "id": "8769ef94-1c76-8482-99fb-8b541795630f",
+    "kind": "term",
+    "preferred": "system requirement",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A requirement on the isolette as a whole rather than on one of its parts.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:37.000Z"
+  },
+  {
+    "id": "8a9d5350-174c-8193-acd1-bbaa580eb359",
+    "kind": "term",
+    "preferred": "infant",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A newborn child cared for in the isolette.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:02.000Z"
+  },
+  {
+    "id": "910e2a8c-ce31-8169-ad01-2d890bc1f739",
+    "kind": "term",
+    "preferred": "monitor",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The function of the thermostat, independent of the regulator, that turns the alarm on when the temperature is unsafe or a failure is detected.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:11.000Z"
+  },
+  {
+    "id": "92dd1f2b-000b-8cd4-b41e-8ff15aa596b5",
+    "kind": "term",
+    "preferred": "assumption",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A statement about the thermostat's environment, such as what the temperature sensor reports, that its requirements take as true.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:41.000Z"
+  },
+  {
+    "id": "95aa5472-4fbc-842d-af28-ed4f4e1241e4",
+    "kind": "term",
+    "preferred": "monitor interface",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The function of the monitor that takes the alarm temperature range from the operator interface and reports the monitor status back.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:45.000Z"
+  },
+  {
+    "id": "a66edd0d-c765-898b-9e5d-af4f6976cf45",
+    "kind": "itemType",
+    "preferred": "switch command",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A value that turns a device on or off.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:34.000Z"
+  },
+  {
+    "id": "aa7af8cc-8f07-80dd-a9ba-00e9cb4629db",
+    "kind": "term",
+    "preferred": "heat control",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The switch command the thermostat sends the heat source.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:25.000Z"
+  },
+  {
+    "id": "b0599bcc-781b-864f-928a-d225338f3bf1",
+    "kind": "term",
+    "preferred": "desired temperature range",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The lower and upper temperature settings between which the regulator keeps the current temperature.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:23.000Z"
+  },
+  {
+    "id": "bbd3fcd8-8073-88bc-a8a8-e5913e076747",
+    "kind": "term",
+    "preferred": "latency",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The time from a change in what a function reads to the change it makes in response.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:19.000Z"
+  },
+  {
+    "id": "c020be3d-6d4c-8148-9963-817005baa23b",
+    "kind": "itemType",
+    "preferred": "display temperature",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The temperature value the operator interface shows the nurse, rounded to a whole degree.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:31.000Z",
+    "broader": [
+      "e9acb37e-5982-83ea-a050-0f480984816e"
+    ]
+  },
+  {
+    "id": "cceca278-e3aa-8af2-9942-1b4cecef4481",
+    "kind": "term",
+    "preferred": "alarm temperature range",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The lower and upper temperature settings outside which the monitor turns the alarm on.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:24.000Z"
+  },
+  {
+    "id": "d0c9c084-7a6d-8285-922f-a39eb52b472d",
+    "kind": "term",
+    "preferred": "condition",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A state of the current temperature, the settings or a function to which a requirement responds.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:47.000Z"
+  },
+  {
+    "id": "d56ea9a3-7641-8efe-b544-0201fa212930",
+    "kind": "term",
+    "preferred": "alarm",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A warning at the operator interface that the infant may be too hot or too cold, or that the monitor has failed.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:12.000Z"
+  },
+  {
+    "id": "dc5dcd88-419d-852c-8060-260432e390ff",
+    "kind": "term",
+    "preferred": "on",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The value of a status that reports the NORMAL mode, or of a switch command that switches a device or the alarm on.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:49.000Z"
+  },
+  {
+    "id": "df68c0b1-d965-8aca-aa8f-9ff0a7c84b6e",
+    "kind": "term",
+    "preferred": "normal",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The mode in which the regulator or the monitor works on valid inputs.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:15.000Z"
+  },
+  {
+    "id": "e1ed14e9-72da-8cfc-8bbd-a97989b74b00",
+    "kind": "term",
+    "preferred": "regulator interface",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The function of the regulator that takes the desired temperature range from the operator interface and reports the regulator status and the display temperature back.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:44.000Z"
+  },
+  {
+    "id": "e2203b50-fb7b-842a-8d9f-f969cd7c57b2",
+    "kind": "term",
+    "preferred": "mode",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "One of INIT, NORMAL and FAILED, the condition that decides how the regulator or the monitor sets its outputs.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:13.000Z"
+  },
+  {
+    "id": "e6c75ec3-4b12-8d57-a2eb-29f0774aa27b",
+    "kind": "term",
+    "preferred": "power cycle",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "Switching the isolette off and on again.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:18.000Z"
+  },
+  {
+    "id": "e9acb37e-5982-83ea-a050-0f480984816e",
+    "kind": "itemType",
+    "preferred": "temperature value",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "A value that states a temperature.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:28.000Z",
+    "quantityKind": "38f6da8a-134b-8682-8134-c4ec5256d50e"
+  },
+  {
+    "id": "eaf4fbf5-b6fe-8326-9a5e-7159ab382b6f",
+    "kind": "term",
+    "preferred": "failed",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The mode the regulator or the monitor enters on a failure; only a power cycle leaves it.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:16.000Z"
+  },
+  {
+    "id": "ec6b031b-689a-86d9-8815-97b56725808b",
+    "kind": "term",
+    "preferred": "thermostat",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The part of the isolette that reads the current temperature, switches the heat source and turns the alarm on or off.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:06.000Z"
+  },
+  {
+    "id": "f172033c-63b0-898d-a990-9c7ed3947fdb",
+    "kind": "itemType",
+    "preferred": "current temperature",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The temperature value the temperature sensor reports for the air in the isolette.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:29.000Z",
+    "broader": [
+      "e9acb37e-5982-83ea-a050-0f480984816e"
+    ]
+  },
+  {
+    "id": "f2016119-e0b9-86bc-87cd-72bd5526d70b",
+    "kind": "term",
+    "preferred": "timing",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The order in which, and the time after which, the inputs and the outputs of a function change; a timing page draws it period by period.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:50.000Z"
+  },
+  {
+    "id": "f9ab8ebe-ea78-8f86-a76a-d713677ee469",
+    "kind": "term",
+    "preferred": "set",
+    "admitted": [],
+    "deprecated": [],
+    "hidden": [],
+    "definition": "The act of the nurse giving a temperature setting its value at the operator interface.",
+    "scope": "project",
+    "addedAt": "2026-11-04T08:00:51.000Z"
+  }
+]
